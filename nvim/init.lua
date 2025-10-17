@@ -7,10 +7,10 @@ vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
 
 require("config.lazy")
 
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-vim.opt.smartindent = false 
+vim.opt.smartindent = true 
 vim.opt.autoindent = true
 
 -- Sidebar numbers
@@ -47,6 +47,7 @@ vim.keymap.set({'n', 'v'}, '<Esc>', ':noh<CR>', {noremap = true, silent = true})
 vim.keymap.set({'n', 'v'}, '<leader>ff', require('telescope.builtin').find_files, { desc = 'Telescope find files' })
 vim.keymap.set({'n', 'v'}, '<leader>fb', require('telescope.builtin').buffers, { desc = 'Telescope buffers' })
 vim.keymap.set({'n', 'v'}, '<leader>fg', require('telescope.builtin').live_grep, { desc = 'Telescope live grep' })
+vim.keymap.set({'n', 'v'}, '<leader>fk', require('telescope.builtin').keymaps, { desc = 'Telescope fuzzy find keybinds' })
 
 -- Statusline --
 function _G.GetCharHex()
