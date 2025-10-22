@@ -7,10 +7,11 @@ vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
 
 require("config.lazy")
 
-require("options")
-require("keymaps")
-require("statusline")
-require("lsp")
+require("user/neovide")
+require("user/options")
+require("user/keymaps")
+require("user/statusline")
+require("user/lsp")
 
 -- Remove autocomment on enter
 vim.api.nvim_create_autocmd("FileType", {
@@ -27,4 +28,5 @@ vim.filetype.add({
     fasm = "fasm",
   }
 })
+
 
