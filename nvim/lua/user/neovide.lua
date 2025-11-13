@@ -4,7 +4,8 @@ vim.g.neovide_scroll_animation_length = 0.2
 
 vim.g.gui_font_default_size = 14
 vim.g.gui_font_size = vim.g.gui_font_default_size
-vim.g.gui_font_face = 'IosevkaCustomNerdFontComplete Nerd Font'
+-- vim.g.gui_font_face = 'IosevkaCustomNerdFontComplete Nerd Font'
+vim.g.gui_font_face = 'Hack Nerd Font'
 vim.g.gui_antialiasing = 'subpixelantialias'
 vim.g.gui_hinting = 'full'
 
