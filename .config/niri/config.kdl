@@ -18,7 +18,6 @@ input {
 
     keyboard {
         xkb {
-            track-layout "global"
             layout "us,il"
             options "grp:win_space_toggle,grp_led:scroll"
         }
@@ -48,9 +47,9 @@ output "DP-2" {
     transform "normal"
     position x=1920 y=0
     variable-refresh-rate
-    focus-on-startup
+    focus-at-startup
 
-    laytout {
+    layout {
         background-color "#000000"
     }
 }
@@ -61,7 +60,7 @@ output "HDMI-A-2" {
     transform "normal"
     position x=0 y=0
 
-    laytout {
+    layout {
         background-color "#000000"
     }
 }
@@ -69,7 +68,7 @@ output "HDMI-A-2" {
 layout {
     // Set gaps around windows in logical pixels.
     //TODO: I don't know if i like this yet
-    gaps 10
+    gaps 4
 
     center-focused-column "never"
 
@@ -104,7 +103,7 @@ layout {
         // off
 
         // How many logical pixels the ring extends out from the windows.
-        width 4
+        width 2
 
         // Colors can be set in a variety of ways:
         // - CSS named colors: "red"
@@ -304,19 +303,11 @@ binds {
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+End  { move-column-to-last; }
 
-    Mod+Shift+Left  { focus-monitor-left; }
-    Mod+Shift+Down  { focus-monitor-down; }
-    Mod+Shift+Up    { focus-monitor-up; }
-    Mod+Shift+Right { focus-monitor-right; }
     Mod+Shift+H     { focus-monitor-left; }
     Mod+Shift+J     { focus-monitor-down; }
     Mod+Shift+K     { focus-monitor-up; }
     Mod+Shift+L     { focus-monitor-right; }
 
-    Mod+Shift+Ctrl+Left  { move-column-to-monitor-left; }
-    Mod+Shift+Ctrl+Down  { move-column-to-monitor-down; }
-    Mod+Shift+Ctrl+Up    { move-column-to-monitor-up; }
-    Mod+Shift+Ctrl+Right { move-column-to-monitor-right; }
     Mod+Shift+Ctrl+H     { move-column-to-monitor-left; }
     Mod+Shift+Ctrl+J     { move-column-to-monitor-down; }
     Mod+Shift+Ctrl+K     { move-column-to-monitor-up; }
