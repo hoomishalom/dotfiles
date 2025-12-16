@@ -35,7 +35,7 @@ vim.opt.timeoutlen = 500
 vim.opt.wrap = false
 
 -- Formatting
-vim.opt.textwidth = 60
+vim.opt.textwidth = 120
 
 -- Colorscheme
 vim.cmd.colorscheme('zenbones')
