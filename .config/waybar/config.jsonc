@@ -1,0 +1,41 @@
+{
+  "position": "bottom",
+  "mod": "dock",
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-left": [
+    "river/layout",
+    "river/tags"
+  ],
+
+  "modules-right": [
+  ],
+
+  "river/layout": {
+    "max-length": 50,
+    "format": "🖵",
+    "empty-format": "🖵"
+  },
+
+  "river/tags": {
+    "num-tags": 5,
+    "tag-labels": ["1", "2", "3", "4", "5"]
+  },
+
+  "clock": {
+    "format": "{:%R}",
+    "tooltip-format": "{calendar}",
+    "interval": 1,
+    "calendar": {
+      "format": {
+        "months": "<span color='#cccccc'>{}</span>",
+        "days": "<span color='#999999'>{}</span>",
+        "weekdays": "<span color='#ffffff'><b>{}</b></span>",
+        "today": "<span color='#ffffff'><b>{}</b></span>"
+      }
+    }
+  }
+}

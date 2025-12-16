@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# spawns a terina
+exec "$TERMINAL"

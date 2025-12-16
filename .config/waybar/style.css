@@ -1,0 +1,43 @@
+* {
+  font-family: "HackNerdFont";
+  font-weight: Normal;
+  font-size: 16px;
+}
+
+window#waybar {
+  background: #181818;
+  color: #aaaaaa;
+}
+
+tooltip {
+  background: #181818;
+  border-radius: 10px;
+}
+
+tooltip label {
+  color: #aaaaaa;
+}
+
+#tags button.occupied { 
+  background: #3b3a3a;
+}
+
+#tags button.focused { 
+  background: #888888;
+}
+
+#tags button.urgent {
+  background: #ff5f5f;
+}
+
+#layout{
+  color: #888888;
+  margin-top: 7px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#layout.focused {
+  color: #ffffff;
+}
+
