@@ -452,8 +452,8 @@ binds {
     // Mod+Space       { switch-layout "next"; }
     // Mod+Shift+Space { switch-layout "prev"; }
 
-    Mod+Shift+S { screenshot; }
-    Ctrl+Mod+Shift+S { screenshot-screen; }
+    Mod+Shift+S { screenshot show-pointer=false; }
+    Ctrl+Mod+Shift+S { screenshot-screen show-pointer=false; }
     Alt+Mod+Shift+S { screenshot-window; }
 
     // Applications such as remote-desktop clients and software KVM switches may
