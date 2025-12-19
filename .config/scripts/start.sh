@@ -7,12 +7,6 @@ fi
 
 # -- START Env Variables --
 
-# Sets XDG_RUNTIME_DIR env variable and craetes the directory if needed
-if [ -z "${XDG_RUNTIME_DIR}" ]; then
-  export XDG_RUNTIME_DIR="/tmp/user/$(id -u)"
-  mkdir -pm 0700 "${XDG_RUNTIME_DIR}"
-fi
-
 # Set chosen terminal
 export TERMINAL=foot
 

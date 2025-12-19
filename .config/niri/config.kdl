@@ -8,7 +8,7 @@ prefer-no-csd
 
 // startup apps
 spawn-at-startup "waybar"
-
+spawn-at-startup "pipewire"
 
 
 screenshot-path "~/screenshots/Screenshot_from_%d-%m-%Y_%H:%M:%S.png"
