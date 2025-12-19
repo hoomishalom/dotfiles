@@ -9,7 +9,7 @@ prefer-no-csd
 // startup apps
 spawn-at-startup "waybar"
 spawn-at-startup "pipewire"
-
+spawn-at-startup "xwayland-satellite" // should fix spotify, and any x11 apps probably
 
 screenshot-path "~/screenshots/Screenshot_from_%d-%m-%Y_%H:%M:%S.png"
 
@@ -39,6 +39,12 @@ input {
     // focus-follows-mouse max-scroll-amount="0%"
 }
 
+gestures {
+    // Disable the top-left hot corner to stop random overview toggles
+    hot-corners {
+        off
+    }
+}
 
 // set up outputs
 output "DP-2" {
