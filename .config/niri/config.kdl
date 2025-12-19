@@ -11,7 +11,7 @@ spawn-at-startup "waybar"
 
 
 
-screenshot-path "~/screenshots/Screenshot-from-%d-%m/%Y-%H:%M:%S.png"
+screenshot-path "~/screenshots/Screenshot_from_%d-%m-%Y_%H:%M:%S.png"
 
 input {
     mod-key "Super"
@@ -69,6 +69,9 @@ layout {
     // Set gaps around windows in logical pixels.
     //TODO: I don't know if i like this yet
     gaps 4
+
+    // adds another empty workspace to the top of the stack
+    empty-workspace-above-first
 
     center-focused-column "never"
 
@@ -354,19 +357,20 @@ binds {
     Mod+Ctrl+Shift+WheelScrollDown { move-column-right; }
     Mod+Ctrl+Shift+WheelScrollUp   { move-column-left; }
 
-    // refer to workspaces with indices, used 6 just as i used in river
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+4 { focus-workspace 4; }
-    Mod+5 { focus-workspace 5; }
-    Mod+6 { focus-workspace 6; }
-    Mod+Shift+1 { move-column-to-workspace 1; }
-    Mod+Shift+2 { move-column-to-workspace 2; }
-    Mod+Shift+3 { move-column-to-workspace 3; }
-    Mod+Shift+4 { move-column-to-workspace 4; }
-    Mod+Shift+5 { move-column-to-workspace 5; }
-    Mod+Shift+6 { move-column-to-workspace 6; }
+    // refer to workspaces with indices, used 6 just as i used in river, the reason
+    // it seems +1 is to ignore the top most worksapce 
+    Mod+1 { focus-workspace 2; }
+    Mod+2 { focus-workspace 3; }
+    Mod+3 { focus-workspace 4; }
+    Mod+4 { focus-workspace 5; }
+    Mod+5 { focus-workspace 6; }
+    Mod+6 { focus-workspace 7; }
+    Mod+Shift+1 { move-column-to-workspace 2; }
+    Mod+Shift+2 { move-column-to-workspace 3; }
+    Mod+Shift+3 { move-column-to-workspace 4; }
+    Mod+Shift+4 { move-column-to-workspace 5; }
+    Mod+Shift+5 { move-column-to-workspace 6; }
+    Mod+Shift+6 { move-column-to-workspace 7; }
 
     // TODO: these are cool, check them out
     // Alternatively, there are commands to move just a single window:
