@@ -11,7 +11,8 @@ spawn-at-startup "waybar"
 spawn-at-startup "pipewire"
 spawn-at-startup "xwayland-satellite" // should fix spotify, and any x11 apps probably
 
-screenshot-path "~/screenshots/Screenshot_from_%d-%m-%Y_%H:%M:%S.png"
+
+screenshot-path "~/screenshots/screenshot_from_%d-%m-%Y_%H:%M:%S.png"
 
 input {
     mod-key "Super"
@@ -47,6 +48,7 @@ gestures {
 }
 
 // set up outputs
+// primary
 output "DP-2" {
     mode "1920x1080@143.999"
     scale 1
@@ -60,6 +62,7 @@ output "DP-2" {
     }
 }
 
+// secondery
 output "HDMI-A-2" {
     mode "1920x1080@60"
     scale 1
@@ -69,6 +72,24 @@ output "HDMI-A-2" {
     layout {
         background-color "#000000"
     }
+}
+
+workspace "util" {
+    open-on-output "HDMI-A-2"
+}
+
+window-rule {
+    match app-id="vesktop"
+
+    open-on-workspace "util"
+    default-column-width { proportion 0.75; }
+}
+
+window-rule {
+    match app-id="com.spotify.Client"
+
+    open-on-workspace "util"
+    default-column-width { proportion 0.25; }
 }
 
 layout {
@@ -166,11 +187,6 @@ layout {
     }
 }
 
-// Add lines like this to spawn processes at startup.
-// Note that running niri as a session supports xdg-desktop-autostart,
-// which may be more convenient to use.
-// See the binds section below for more spawn examples.
-
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -180,41 +196,13 @@ hotkey-overlay {
     // skip-at-startup
 }
 
-// Uncomment this line to ask the clients to omit their client-side decorations if possible.
-// If the client will specifically ask for CSD, the request will be honored.
-// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
-// This option will also fix border/focus ring drawing behind some semitransparent windows.
-// After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
 
 
-// You can also set this to null to disable saving screenshots to disk.
-// screenshot-path null
-
-// Animation settings.
-// The wiki explains how to configure individual animations:
-// https://yalter.github.io/niri/Configuration:-Animations
 animations {
-    // Uncomment to turn off all animations.
-    // off
-
     // Slow down all animations by this factor. Values below 1 speed them up instead.
-    // slowdown 3.0
+    slowdown 0.8
 }
 
-// Window rules let you adjust behavior for individual windows.
-// Find more information on the wiki:
-// https://yalter.github.io/niri/Configuration:-Window-Rules
-
-// Work around WezTerm's initial configure bug
-// by setting an empty default-column-width.
-window-rule {
-    // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no false positives.
-    // You can get away with just app-id="wezterm" if you want.
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
 
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
@@ -225,24 +213,7 @@ window-rule {
     open-floating true
 }
 
-// Example: block out two password managers from screen capture.
-// (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
-    match app-id=r#"^org\.gnome\.World\.Secrets$"#
 
-    block-out-from "screen-capture"
-
-    // Use this instead if you want them visible on third-party screenshot tools.
-    // block-out-from "screencast"
-}
-
-// Example: enable rounded corners for all windows.
-// (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
-    clip-to-geometry true
-}
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
