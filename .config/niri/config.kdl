@@ -10,6 +10,8 @@ prefer-no-csd
 spawn-at-startup "waybar"
 spawn-at-startup "pipewire"
 spawn-at-startup "xwayland-satellite" // should fix spotify, and any x11 apps probably
+spawn-at-startup "vesktop"
+spawn-at-startup "Spotify"
 
 
 screenshot-path "~/screenshots/screenshot_from_%d-%m-%Y_%H:%M:%S.png"
@@ -86,7 +88,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="com.spotify.Client"
+    match app-id="Spotify"
 
     open-on-workspace "util"
     default-column-width { proportion 0.25; }
