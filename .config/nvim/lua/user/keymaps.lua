@@ -14,6 +14,9 @@ vim.keymap.set({'n', 'v'}, '<Esc>', ':noh<CR>', {noremap = true, silent = true})
 -- Map Y to copying a line without newline
 vim.keymap.set({'n', 'v'}, 'Y', '^y$', {noremap = true, silent = true, desc = "Copy a line without the newline"})
 
+-- Map ga to copying a line without newline
+vim.keymap.set({'n', 'v'}, 'ga', ':EasyAlign<CR>', {noremap = true, silent = true, desc = "Aligns text based on delimeter"})
+
 -- Telescope keybinds
 vim.keymap.set({'n', 'v'}, '<leader>ff', require('telescope.builtin').find_files, { desc = 'Telescope find files' })
 vim.keymap.set({'n', 'v'}, '<leader>fb', require('telescope.builtin').buffers, { desc = 'Telescope buffers' })

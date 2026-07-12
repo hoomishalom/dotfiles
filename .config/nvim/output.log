@@ -1,0 +1,471 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/usr/share/nvim/runtime/ftplugin.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin.vim
+sourcing "/usr/share/nvim/runtime/indent.vim"
+finished sourcing /usr/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/hoomi/.config/nvim/init.lua"
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0"
+line 2: sourcing "/home/hoomi/.config/nvim/ftdetect/lolcode.vim"
+                                                                Already at oldest change
+finished sourcing /home/hoomi/.config/nvim/ftdetect/lolcode.vim
+continuing in nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0
+finished sourcing nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0
+continuing in /usr/share/nvim/runtime/filetype.lua
+finished sourcing /usr/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/filetypes.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/filetypes.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/query_predicates.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/nvim-treesitter/plugin/query_predicates.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/telescope.nvim/plugin/telescope.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/telescope.nvim/plugin/telescope.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+Error in /home/hoomi/dotfiles/.config/nvim/init.lua..nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0:
+line    1:
+E216: No such group or event: FileExplorer *
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/nvim-surround/plugin/nvim-surround.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/nvim-surround/plugin/nvim-surround.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/Comment.nvim/plugin/Comment.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/Comment.nvim/plugin/Comment.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/vim-easy-align/plugin/easy_align.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/vim-easy-align/plugin/easy_align.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/teamtype-nvim/plugin/teamtype.lua"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/teamtype-nvim/plugin/teamtype.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim"
+line 65: sourcing "/home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim
+continuing in /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim
+line 66: sourcing "/home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim
+continuing in /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim
+line 13: sourcing "/home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps/all.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps/all.vim
+continuing in <SNR>32_build_permanent_maps
+finished sourcing /home/hoomi/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/home/hoomi/.local/share/nvim/lazy/lush.nvim/plugin/lush.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/lush.nvim/plugin/lush.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/fzf.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/fzf.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/man.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /usr/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/net.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/net.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/usr/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/rplugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/shada.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/shada.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/spellfile.lua"
+finished sourcing /usr/share/nvim/runtime/plugin/spellfile.lua
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0"
+line 1: sourcing "/usr/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/hoomi/dotfiles/.config/nvim/init.lua:0
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+line 0: sourcing "/home/hoomi/.local/share/nvim/lazy/zenbones.nvim/colors/zenbones.vim"
+line 7: sourcing "/home/hoomi/.local/share/nvim/lazy/zenbones.nvim/autoload/bones.vim"
+finished sourcing /home/hoomi/.local/share/nvim/lazy/zenbones.nvim/autoload/bones.vim
+continuing in /home/hoomi/.local/share/nvim/lazy/zenbones.nvim/colors/zenbones.vim
+finished sourcing /home/hoomi/.local/share/nvim/lazy/zenbones.nvim/colors/zenbones.vim
+continuing in /home/hoomi/dotfiles/.config/nvim/init.lua
+finished sourcing /home/hoomi/.config/nvim/init.lua
+sourcing "/usr/share/nvim/runtime/filetype.lua"
+finished sourcing /usr/share/nvim/runtime/filetype.lua
+sourcing "/usr/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/usr/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/synload.vim
+continuing in /usr/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/hoomi/.local/state/nvim/shada/main.shada" info marks oldfiles
+Reading ShaDa file "/home/hoomi/.local/state/nvim/shada/main.shada" marks
+not found in runtime path: "scripts.vim"
+sourcing "/usr/share/nvim/runtime/autoload/provider/clipboard.vim"
+finished sourcing /usr/share/nvim/runtime/autoload/provider/clipboard.vim
+
+
+--- Terminal info --- {{{
+&term: foot
+using terminfo database
+
+Boolean capabilities:
+  back_color_erase: true
+  truecolor ('Tc' or 'RGB'): true
+  extended underline ('Su'): true
+
+Numeric capabilities: (-1 for unknown)
+  lines: 24
+  columns: 80
+  max_colors: 80
+
+String capabilities:
+  carriage_return                 = ^M
+  change_scroll_region            = ^[[%i%p1%d;%p2%dr
+  clear_screen                    = ^[[H^[[2J
+  clr_eol                         = ^[[K
+  clr_eos                         = ^[[J
+  cursor_address                  = ^[[%i%p1%d;%p2%dH
+  cursor_down                     = ^@
+  cursor_invisible                = ^[[?25l
+  cursor_left                     = ^H
+  cursor_home                     = ^[[H
+  cursor_normal                   = ^[[?25h
+  cursor_up                       = ^[[A
+  cursor_right                    = ^[[C
+  delete_line                     = ^[[M
+  enter_blink_mode                = ^[[5m
+  enter_bold_mode                 = ^[[1m
+  enter_ca_mode                   = ^[[?1049h^[[22;0;0t
+  enter_dim_mode                  = ^[[2m
+  enter_italics_mode              = ^[[3m
+  enter_reverse_mode              = ^[[7m
+  enter_secure_mode               = ^[[8m
+  enter_standout_mode             = ^[[7m
+  enter_underline_mode            = ^[[4m
+  erase_chars                     = ^[[%p1%dX
+  exit_attribute_mode             = ^[(B^[[m
+  exit_ca_mode                    = ^[[?1049l^[[23;0;0t
+  from_status_line                = ^[\
+  insert_line                     = ^[[L
+  keypad_local                    = ^[[?1l^[>
+  keypad_xmit                     = ^[[?1h^[=
+  parm_delete_line                = ^[[%p1%dM
+  parm_down_cursor                = ^[[%p1%dB
+  parm_insert_line                = ^[[%p1%dL
+  parm_left_cursor                = ^[[%p1%dD
+  parm_right_cursor               = ^[[%p1%dC
+  parm_up_cursor                  = ^[[%p1%dA
+  set_a_background                = ^[[%?%p1%{8}%<%t4%p1%d%e%p1%{16}%<%t10%p1%{8}%-%d%e48:5:%p1%d%;m
+  set_a_foreground                = ^[[%?%p1%{8}%<%t3%p1%d%e%p1%{16}%<%t9%p1%{8}%-%d%e38:5:%p1%d%;m
+  set_attributes                  = %?%p9%t^[(0%e^[(B%;^[[0%?%p6%t;1%;%?%p5%t;2%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p7%t;8%;m
+  to_status_line                  = ^[]2;
+  reset_cursor_style (Se)         = ^[[ q
+  set_cursor_style (Ss)           = ^[[%p1%d q
+  enter_strikethrough_mode (smxx) = ^[[9m
+  set_rgb_foreground (setrgbf)    = ^[[38:2::%p1%d:%p2%d:%p3%dm
+  set_rgb_background (setrgbb)    = ^[[48:2::%p1%d:%p2%d:%p3%dm
+  set_cursor_color (Cs)           = ^[]12;%p1%s^[\
+  reset_cursor_color (Cr)         = ^[]112^[\
+  set_underline_style (Smulx)     = ^[[4:%p1%dm
+  key_btab                        = ^[[Z
+  key_dc                          = ^[[3~, key_sdc = ^[[3;2~
+  key_end                         = ^[OF, key_send = ^[[1;2F
+  key_home                        = ^[OH, key_shome = ^[[1;2H
+  key_ic                          = ^[[2~, key_sic = ^[[2;2~
+  key_npage                       = ^[[6~
+  key_ppage                       = ^[[5~
+  key_left                        = ^[OD, key_sleft = ^[[1;2D
+  key_right                       = ^[OC, key_sright = ^[[1;2C
+  key_f2                          = ^[OQ
+  key_f3                          = ^[OR
+  key_f4                          = ^[OS
+  key_f5                          = ^[[15~
+  key_f6                          = ^[[17~
+  key_f7                          = ^[[18~
+  key_f8                          = ^[[19~
+  key_f9                          = ^[[20~
+  key_f10                         = ^[[21~
+  key_f11                         = ^[[23~
+  key_f12                         = ^[[24~
+  key_f13                         = ^[[1;2P
+  key_f14                         = ^[[1;2Q
+  key_f15                         = ^[[1;2R
+  key_f16                         = ^[[1;2S
+  key_f17                         = ^[[15;2~
+  key_f18                         = ^[[17;2~
+  key_f19                         = ^[[18;2~
+  key_f20                         = ^[[19;2~
+  key_f21                         = ^[[20;2~
+  key_f22                         = ^[[21;2~
+  key_f23                         = ^[[23;2~
+  key_f24                         = ^[[24;2~
+  key_f25                         = ^[[1;5P
+  key_f26                         = ^[[1;5Q
+  key_f27                         = ^[[1;5R
+  key_f28                         = ^[[1;5S
+  key_f29                         = ^[[15;5~
+  key_f30                         = ^[[17;5~
+  key_f31                         = ^[[18;5~
+  key_f32                         = ^[[19;5~
+  key_f33                         = ^[[20;5~
+  key_f34                         = ^[[21;5~
+  key_f35                         = ^[[23;5~
+  key_f36                         = ^[[24;5~
+  key_f37                         = ^[[1;6P
+  key_f38                         = ^[[1;6Q
+  key_f39                         = ^[[1;6R
+  key_f40                         = ^[[1;6S
+  key_f41                         = ^[[15;6~
+  key_f42                         = ^[[17;6~
+  key_f43                         = ^[[18;6~
+  key_f44                         = ^[[19;6~
+  key_f45                         = ^[[20;6~
+  key_f46                         = ^[[21;6~
+  key_f47                         = ^[[23;6~
+  key_f48                         = ^[[24;6~
+  key_f49                         = ^[[1;3P
+  key_f50                         = ^[[1;3Q
+  key_f51                         = ^[[1;3R
+  key_f52                         = ^[[1;3S
+  key_f53                         = ^[[15;3~
+  key_f54                         = ^[[17;3~
+  key_f55                         = ^[[18;3~
+  key_f56                         = ^[[19;3~
+  key_f57                         = ^[[20;3~
+  key_f58                         = ^[[21;3~
+  key_f59                         = ^[[23;3~
+  key_f60                         = ^[[24;3~
+  key_f61                         = ^[[1;4P
+  key_f62                         = ^[[1;4Q
+  key_f63                         = ^[[1;4R
+}}}
+
+
+Error in BufUnload Autocommands for "*":
+Lua callback: Vim:E495: No autocommand file name to substitute for "<afile>"
+stack traceback:
+	[C]: in function 'expand'
+	...mi/.local/share/nvim/lazy/teamtype-nvim/lua/teamtype.lua:213: in function <...mi/.local/share/nvim/lazy/teamtype-nvim/lua/teamtype.lua:211>
+Writing ShaDa file "/home/hoomi/.local/state/nvim/shada/main.shada"

@@ -1,0 +1,51 @@
+-- Gemini did this, im lazy!
+
+-- jdtls requires a specific command to launch it, as it's a Java application.
+-- This configuration assumes a standard jdtls installation structure.
+-- You might need to adjust paths based on your actual jdtls installation.
+
+local jdtls_path = '/opt/jdtls-1.9.0' -- The root of your jdtls installation
+local data_dir = vim.fn.stdpath('data') .. '/jdtls-workspace' -- Recommended: unique workspace for jdtls
+
+-- Command to launch jdtls
+local cmd = {
+  'java',
+  '-Declipse.application=org.eclipse.jdt.ls.core.id1',
+  '-Dosgi.bundles.defaultStartLevel=4',
+  '-Declipse.product=org.eclipse.jdt.ls.core.product',
+  '-Dlog.protocol=true',
+  '-Dlog.level=ALL',
+  '-Xmx1G', -- Adjust JVM memory if needed
+  '--add-modules=ALL-SYSTEM',
+  '--add-opens', 'java.base/java.util=ALL-UNNAMED',
+  '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
+  '-jar',
+  vim.fn.glob(jdtls_path .. '/plugins/org.eclipse.equinox.launcher_*.jar', true),
+  '-configuration',
+  jdtls_path .. '/config_linux',
+  '-data',
+  data_dir,
+}
+
+-- Ensure the data directory exists
+if not vim.loop.fs_stat(data_dir) then
+  vim.fn.mkdir(data_dir, 'p')
+end
+
+return {
+  cmd = cmd,
+  filetypes = { 'java' },
+  root_dir = '/home/hoomi/Nextcloud/tau/courses/compilation/hw/hw4/ex4',
+  root_markers = {
+    '.git',
+    'mvnw',
+    'gradlew',
+    'pom.xml',
+    'build.gradle'
+  },
+  settings = {
+    java = {
+      -- Add any specific Java settings here
+    }
+  }
+}

@@ -7,10 +7,7 @@
 prefer-no-csd
 
 // startup apps
-spawn-at-startup "waybar"
-spawn-at-startup "pipewire"
-spawn-at-startup "xwayland-satellite" // should fix spotify, and any x11 apps probably
-spawn-at-startup "vesktop"
+spawn-sh-at-startup "bread-content -t k10temp | bread -f 'Iosevka Simple'"
 spawn-at-startup "Spotify"
 
 
@@ -84,7 +81,7 @@ window-rule {
     match app-id="vesktop"
 
     open-on-workspace "util"
-    default-column-width { proportion 0.75; }
+    default-column-width { proportion 1.0; }
 }
 
 window-rule {
@@ -106,28 +103,15 @@ layout {
 
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
+        proportion 0.3
         proportion 0.5
-        proportion 0.66667
+        proportion 0.7
     }
 
-    // You can also customize the heights that "switch-preset-window-height" (Mod+Shift+R) toggles between.
-    // preset-window-heights { }
+    always-center-single-column
 
     // You can change the default width of the new windows.
-    default-column-width { proportion 0.5; }
-    // If you leave the brackets empty, the windows themselves will decide their initial width.
-    // default-column-width {}
-
-    // By default focus ring and border are rendered as a solid background rectangle
-    // behind windows. That is, they will show up through semitransparent windows.
-    // This is because windows using client-side decorations can have an arbitrary shape.
-    //
-    // If you don't like that, you should uncomment `prefer-no-csd` below.
-    // Niri will draw focus ring and border *around* windows that agree to omit their
-    // client-side decorations.
-    //
-    // Alternatively, you can override it with a window rule called
-    // `draw-border-with-background`.
+    default-column-width { proportion 0.7; }
 
     // You can change how the focus ring looks.
     focus-ring {
@@ -212,7 +196,7 @@ window-rule {
     // - host Firefox (app-id is "firefox")
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
+    open-floating false
 }
 
 

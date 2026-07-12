@@ -23,3 +23,7 @@ if status is-interactive
     alias lsh="eza -a"
     alias nvd="neovide"
 end
+
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/hoomi/.local/bin" $PATH
